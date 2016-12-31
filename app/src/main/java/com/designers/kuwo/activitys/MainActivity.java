@@ -10,14 +10,15 @@ import com.designers.kuwo.R;
 import com.designers.kuwo.utils.T;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     T.showLong(MainActivity.this, "ÄãºÃ2107");
-        T.showLong(MainActivity.this,"ÄãºÃ");
+
+        T.showLong(MainActivity.this,"hhhh");
     }
 
     @Override
