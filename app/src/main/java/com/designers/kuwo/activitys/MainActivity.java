@@ -1,7 +1,6 @@
 package com.designers.kuwo.activitys;
 
 import android.app.Activity;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,7 +18,7 @@ public class MainActivity extends Activity{
         setContentView(R.layout.activity_main);
         this.demo_text= (TextView) findViewById(R.id.demo_text);
         this.demo_text.setOnClickListener(x -> {
-            T.showLong(MainActivity.this, "你好2107");
+            T.showLong(MainActivity.this, "你好2107-----上传测试！");
         });
 
 
