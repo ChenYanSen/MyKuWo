@@ -23,7 +23,7 @@ public class MainActivity extends Activity{
         });
 
 
-        T.showLong(MainActivity.this,"hhhh");
+
     }
 
     @Override
