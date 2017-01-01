@@ -17,8 +17,9 @@ public class MainActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         this.demo_text= (TextView) findViewById(R.id.demo_text);
-        this.demo_text.setOnClickListener(x -> {
-            T.showLong(MainActivity.this, "你好2107-----上传测试1111111111111111111111！");
+       this.demo_text.setOnClickListener(x -> {
+            T.showLong(MainActivity.this, "2017你好么");
+
         });
 
 
