@@ -19,7 +19,7 @@ public class MainActivity extends Activity{
         setContentView(R.layout.activity_main);
         this.demo_text= (TextView) findViewById(R.id.demo_text);
        this.demo_text.setOnClickListener(x -> {
-           T.showShort(MainActivity.this, "2016ÄãºÃ");
+           T.showShort(MainActivity.this, "2017ÄãºÃ");
 
         });
 
