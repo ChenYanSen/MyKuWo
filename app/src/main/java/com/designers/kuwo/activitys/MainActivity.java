@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.designers.kuwo.R;
 import com.designers.kuwo.utils.T;
@@ -18,7 +19,7 @@ public class MainActivity extends Activity{
         setContentView(R.layout.activity_main);
         this.demo_text= (TextView) findViewById(R.id.demo_text);
        this.demo_text.setOnClickListener(x -> {
-            T.showLong(MainActivity.this, "2017ฤใบรรด");
+           T.showShort(MainActivity.this, "2016ฤใบร");
 
         });
 
